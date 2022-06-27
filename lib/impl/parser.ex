@@ -4,10 +4,11 @@ defmodule BankOcr.Parser do
   """
 
   @doc """
-  Parse account number string representation into account number string.
+  Parse account number representation into account number string.
   """
-  @spec parse(String.t()) :: String.t()
-  def parse(account_number) do
-    account_number
+  @spec parse([String.t(), ...]) :: String.t()
+  def parse([row_1, row_2, row_3] = _account_number)
+      when is_binary(row_1) and is_binary(row_2) and is_binary(row_3) do
+    row_1 <> row_2 <> row_3
   end
 end
