@@ -1,4 +1,4 @@
-defmodule BankOcr.Parser do
+defmodule BankOcr.Impl.Parser do
   @moduledoc """
   Parse Ingenious Machine™ files into actual bank account numbers.
   """

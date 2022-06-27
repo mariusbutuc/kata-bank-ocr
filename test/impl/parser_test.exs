@@ -1,7 +1,7 @@
-defmodule BankOcr.ParserTest do
+defmodule BankOcr.Impl.ParserTest do
   use ExUnit.Case, async: true
 
-  alias BankOcr.Parser
+  alias BankOcr.Impl.Parser
   doctest Parser, import: true
 
   test "parses zeros" do
