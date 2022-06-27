@@ -1,5 +1,12 @@
 # Bank OCR kata
 
+## Progress
+
+- [x] [User Story 1](#user-story-1): Parse scanned numbers into actual account numbers _(~3 hour/6 pomodoros mark)_
+- [ ] [User Story 2](#user-story-2): Validate account numbers
+- [ ] [User Story 3](#user-story-3): Compute account number status
+- [ ] [User Story 4](#user-story-4): "Heal" account numbers in one change
+
 ## Description ([Coding Dojo][desc-cd] | [Test Double][desc-td]):
 
 ### User Story 1
